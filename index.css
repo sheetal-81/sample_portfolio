@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Trirong', serif;
+}
+
+a {
+    color: rgb(248, 252, 252);
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3.5rem; /* Adjust font size for smaller screens */
+    color: #f80808;
+    font-weight: 700;
+    padding-top: 5vh; /* Adjust spacing for smaller screens */
+    margin-left: 5vw; /* Adjust spacing for smaller screens */
+}
+
+h2 {
+    color: rgb(20, 246, 246);
+    font-size: 5rem; /* Adjust font size for smaller screens */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.r1 {
+    position: absolute;
+    top: 90vh; /* Adjust position for smaller screens */
+    border: 5px solid red;
+    margin-left: 5vw; /* Adjust spacing for smaller screens */
+    color: aliceblue;
+    border-radius: 30px;
+    width: 40vw; /* Adjust width for smaller screens */
+    max-width: 200px; /* Set max-width for smaller screens */
+    height: 7vh; /* Adjust height for smaller screens */
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    padding-left: 1vw; /* Adjust padding for smaller screens */
+    padding-top: 0.5vh; /* Adjust padding for smaller screens */
+}
+
+h4 {
+    color: white;
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    text-align: justify;
+    margin-left: 5vw; /* Adjust spacing for smaller screens */
+}
+
+.high {
+    text-shadow: 2px 1px 0 rgb(0, 0, 0);
+    text-decoration: underline;
+    color: #f8f9fab0;
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+}
+
+.container {
+    margin-top: 20px; /* Adjust margin for better spacing */
+    text-align: center; /* Center align the content */
+    color: white; /* Adjust text color for better contrast */
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for devices with a max-width of 768px */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    .r1 {
+        width: 70vw;
+        max-width: 300px;
+        height: 8vh;
+        font-size: 1.3rem;
+        padding-left: 2vw;
+        padding-top: 0.7vh;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .high {
+        font-size: 1rem;
+    }
+}
